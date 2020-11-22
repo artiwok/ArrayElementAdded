@@ -45,6 +45,8 @@ namespace ArrayElementAdded
                 arrTwo[i] = arr[i];
             }
 
+            Console.WriteLine("\nThe updated array elements' values are: ");
+
             for (int i = 0; i < arrTwo.Length; i++)
             {
                 arrTwo[arrTwo.Length - 1] = element;
